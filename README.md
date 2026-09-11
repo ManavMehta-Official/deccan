@@ -1,4 +1,4 @@
-# Admin Console
+# Deccan
 
 A single-tenant administration portal starter built with Next.js, PostgreSQL, Drizzle ORM, and server-side authentication. It provides the repeated workflows most internal tools need: administrator login, user directory management, invitations, password recovery, email delivery configuration, audit history, exports, and operational cleanup.
 
