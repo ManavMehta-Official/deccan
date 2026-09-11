@@ -3,7 +3,7 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import { Mail, Lock, AlertCircle, Eye, EyeOff, Loader2, ShieldCheck } from 'lucide-react';
+import { Mail, Lock, AlertCircle, Eye, EyeOff, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';

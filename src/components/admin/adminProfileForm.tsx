@@ -4,11 +4,10 @@ import * as React from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Separator } from '@/components/ui/separator';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { toast } from 'sonner';
 import { updateAdminProfile, changeAdminPassword } from '@/app/admin/actions';
-import { User, Lock, Loader2, Check, Eye, EyeOff } from 'lucide-react';
+import { User, Lock, Loader2, Eye, EyeOff } from 'lucide-react';
 
 type AdminProfileFormProps = {
   user: {

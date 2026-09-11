@@ -19,7 +19,7 @@ import { UserDetailsSheet } from '@/components/admin/userDetailsSheet';
 import { UserTableToolbar } from '@/components/admin/userTableToolbar';
 import { UserTablePagination } from '@/components/admin/userTablePagination';
 import { deleteUserAction } from '@/app/admin/actions';
-import { Eye, Shield, Users as UsersIcon } from 'lucide-react';
+import { Eye, Users as UsersIcon } from 'lucide-react';
 
 export type UserRow = {
   id: string;
@@ -107,10 +107,10 @@ export function UserTable({
 
       <div className="rounded-2xl border border-border/60 bg-card text-card-foreground shadow-2xs overflow-hidden">
         <div className="overflow-x-auto">
-          <Table className="min-w-[640px]">
+          <Table className="min-w-160">
             <TableHeader>
               <TableRow className="bg-muted/40 hover:bg-muted/40 border-b border-border/60">
-                <TableHead className="w-[48px] py-3.5 px-4 text-center">
+                <TableHead className="w-12 py-3.5 px-4 text-center">
                   <Checkbox
                     checked={allSelected}
                     onCheckedChange={(checked) => handleSelectAll(Boolean(checked))}
@@ -178,7 +178,7 @@ export function UserTable({
                               {user.name ? user.name.charAt(0).toUpperCase() : 'U'}
                             </div>
                           )}
-                          <div className="flex flex-col overflow-hidden max-w-[220px]">
+                          <div className="flex flex-col overflow-hidden max-w-55">
                             <span className="text-sm font-medium text-foreground truncate group-hover:text-primary transition-colors">
                               {user.name || 'Unnamed'}
                             </span>

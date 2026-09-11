@@ -160,13 +160,13 @@ export function DashboardCharts({ data }: { data: AnalyticsData }) {
                       cx={x}
                       cy={yAct}
                       r={isHovered ? "5" : "3.5"}
-                      className={`transition-all duration-150 fill-background stroke-blue-500 ${isHovered ? 'stroke-[3]' : 'stroke-2'}`}
+                      className={`transition-all duration-150 fill-background stroke-blue-500 ${isHovered ? 'stroke-3' : 'stroke-2'}`}
                     />
                     <circle
                       cx={x}
                       cy={ySign}
                       r={isHovered ? "5" : "3.5"}
-                      className={`transition-all duration-150 fill-background stroke-emerald-500 ${isHovered ? 'stroke-[3]' : 'stroke-2'}`}
+                      className={`transition-all duration-150 fill-background stroke-emerald-500 ${isHovered ? 'stroke-3' : 'stroke-2'}`}
                     />
                   </g>
                 );

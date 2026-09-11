@@ -1,6 +1,6 @@
 import { db } from '@/db';
 import { adminSessions, auditEvents, emailSettings, users } from '@/db/schema';
-import { and, asc, count, desc, eq, gte, ilike, isNotNull, isNull, lt, lte, or, sql } from 'drizzle-orm';
+import { and, asc, count, desc, eq, gte, ilike, isNotNull, isNull, lt, lte, or } from 'drizzle-orm';
 
 export async function hasSuperAdmin(): Promise<boolean> {
   const [result] = await db

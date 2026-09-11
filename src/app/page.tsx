@@ -1,7 +1,7 @@
 // app/page.tsx
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, ArrowUpRight, BookOpen, GitCommit } from 'lucide-react';
+import { ArrowUpRight, BookOpen, GitCommit } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import logo from "../../public/logo.svg";
 
